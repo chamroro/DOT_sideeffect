@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background-color: black;
+    font-family: 'MinSans-Medium';
+    font-weight: 500;
+}
+
+.mo{
+    display: none;
+    position: absolute;
+    left: calc((100% - 375px)/2);
+    margin: 0 auto;
+}
+
+.con{
+    width: 375px;
+}
+
+.pc{
+    position: absolute;
+    width: 1440px;
+    height: 2056px;
+    
+    top: 0px;
+    left: calc((100% - 1440px)/2);
+    margin: 0 auto;
+    /* transform: translate(0%, -50px); */
+}
+
+.main{
+    position: absolute;
+    width: 239px;
+    height: 21px;
+    left: 1122px;
+    top: 20px;
+}
+
+.longhr{
+    margin: 0;
+    position: absolute;
+    left: 67px;
+    top: 53px;
+    width: 1306px;
+}
+
+
+.headText{
+    position: absolute;
+    width: 239px;
+    height: 21px;
+    left: 1122px;
+    top: 20px;
+}
+
+h6 {
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.title{
+    position: absolute;
+    width: 120px;
+    height: 24.32px;
+    left: 471px;
+    top: 174px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.desc1{
+    position: absolute;
+    width: 491px;
+    height: 180px;
+    left: 471px;
+    top: 222px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.desc2{
+    position: absolute;
+    width: 498px;
+    height: 182px;
+    left: 471px;
+    top: 429px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+    
+}
+
+
+.desc3{
+    position: absolute;
+    width: 486px;
+    height: 130px;
+    left: 471px;
+    top: 634px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;    
+}
+
+
+
+
+.nav{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1118px;
+    top: 138px;
+}
+
+.navItems{
+    position: absolute;
+    width: 71px;
+    height: 68px;
+    left: 1183px;
+    top: 204px;
+
+}
+
+.home{
+    position: absolute;
+    width: 41px;
+    height: 20px;
+    left: 1198px;
+    top: 204px;
+}
+
+.aboutme{
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    left: 1183px;
+    top: 252px;
+}
+
+
+@media (max-width:415px) {
+    .pc{
+        display: none;
+    }
+    .mo{
+        display: flex;
+    }
+
+    .main{
+        position: absolute;
+        width: 65px;
+        height: 8px;
+        left: 291px;
+        top: 4px;
+    }
+    
+    .home{
+        position: absolute;
+        width: 15px;
+        height: 5px;
+        left: 310px;
+        top: 49px;
+        
+    }
+
+    .aboutme{
+        position: absolute;
+        width: 22px;
+        height: 5px;
+        left: 307px;
+        top: 61px;
+    }
+    
+}

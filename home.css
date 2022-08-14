@@ -1,0 +1,380 @@
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    margin: 0;
+}
+
+.mo{
+    display: none;
+    position: absolute;
+    left: calc((100% - 375px)/2);
+    margin: 0 auto;
+}
+
+.con{
+    position: absolute;
+    width: 375px;
+    height: 524.18px;
+    left: 0px;
+    top: 0px;
+}
+
+.mo iframe{
+    position: absolute;
+    width: 167px;
+    height: 112px;
+    left: 21px;
+    top: 360px;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    font-family: 'MinSans-Medium';
+}
+
+.longhr{
+    margin: 0;
+    position: absolute;
+    left: 67px;
+    top: 53px;
+    width: 1306px;
+}
+
+
+.headText{
+    position: absolute;
+    width: 239px;
+    height: 21px;
+    left: 1122px;
+    top: 20px;
+}
+
+.pc{
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 2056px;
+    
+    top: 0px;
+    left: calc((100% - 1440px)/2);
+    margin: 0 auto;
+    /* transform: translate(0%, -50px); */
+}
+
+
+.readMore{
+    position: absolute;
+    width: 111px;
+    height: 31px;
+    left: 368px;
+    top: 504px;
+}
+
+.rmi{
+    position: absolute;
+    width: 111px;
+    height: 31px;
+    left: 368px;
+    top: 504px;
+}
+
+
+
+h6 {
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.d0 {
+    position: absolute;
+    width: 406px;
+    height: 104px;
+    left: 83px;
+    top: 417px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.t1{
+    position: absolute;
+    width: 24px;
+    height: 22px;
+    left: 538px;
+    top: 1030px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.d1{
+    position: absolute;
+    width: 197px;
+    height: 192px;
+    left: 538px;
+    top: 1063px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.t2{
+    position: absolute;
+    width: 62px;
+    height: 22px;
+    left: 850px;
+    top: 424px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.d2{
+    position: absolute;
+    width: 179px;
+    height: 120px;
+    left: 850px;
+    top: 457px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    /* or 185% */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    color: #FFFFFF;
+    
+}
+
+.t3{
+    position: absolute;
+    width: 24px;
+    height: 22px;
+    left: 916px;
+    top: 1378px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height, or 169% */
+    
+    
+    color: #FFFFFF;
+}
+
+.d3{
+    position: absolute;
+    width: 357px;
+    height: 144px;
+    left: 916px;
+    top: 1411px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.t4{
+    position: absolute;
+    width: 73px;
+    height: 22px;
+    left: 648px;
+    top: 1873px;
+    
+    font-family: 'Min Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.i1{
+    position: absolute;
+    width: 424px;
+    height: 599px;
+    left: 84px;
+    top: 652px;
+}
+
+.i2{
+    position: absolute;
+    width: 306px;
+    height: 432px;
+    left: 1055px;
+    top: 145px;
+}
+
+.i3{
+    position: absolute;
+    width: 456px;
+    height: 646px;
+    left: 904px;
+    top: 708px;
+}
+
+.nav{
+    position: absolute;
+    width: 249px;
+    height: 249px;
+    left: calc(50% - 175px);
+    top: 405px;
+    position: fixed;
+    z-index: 100;
+}
+
+
+.navItems{
+    position: absolute;
+    width: 89px;
+    left: calc(50% - 92px);
+    top: 485px;
+    position: fixed;
+    z-index: 100;
+}
+
+.insight{
+    position: absolute;
+    width: 55px;
+    height: 20px;
+    left: calc(50% - 78px);
+    top: 517px;
+    position: fixed;
+    z-index: 100;
+}
+
+.aboutme{
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    left: calc(50% - 86px);
+    top: 541px;
+    position: fixed;
+    z-index: 100;
+}
+
+
+.titleText{
+    position: absolute;
+    width: 646px;
+    height: 257px;
+    left: 78px;
+    top: 120px;
+}
+
+.pc iframe{
+    position: absolute;
+    width: 636px;
+    height: 425px;
+    left: 84px;
+    top: 1388px;
+    
+}
+
+.issue1{
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: 850px;
+    top: 391px;
+}
+
+.issue2{
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: 538px;
+    top: 997px;
+}
+
+.issue3{
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: 916px;
+    top: 1345px;
+}
+
+.issue4{
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: 661px;
+    top: 1840px;
+}
+
+@media (max-width:415px) {
+    .pc{
+        display: none;
+    }
+    .mo{
+        display: flex;
+    }
+
+    .main{
+        position: absolute;
+        width: 65px;
+        height: 8px;
+        left: 291px;
+        top: 4px;
+    }
+
+    .readMore{
+        position: absolute;
+        width: 30px;
+        height: 9px;
+        left: 95px;
+        top: 130px;
+
+    }
+    .insight{
+        position: absolute;
+        width: 16px;
+        height: 4px;
+        left: 314px;
+        top: 458px;
+    }
+
+    .aboutme{
+        position: absolute;
+        width: 20px;
+        height: 3px;
+        left: 312px;
+        top: 465px;
+    }
+    
+}
